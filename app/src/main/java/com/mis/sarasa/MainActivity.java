@@ -1,6 +1,7 @@
 package com.mis.sarasa;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +11,7 @@ import android.widget.TextView;
 import com.rilixtech.materialfancybutton.MaterialFancyButton;
 
 public class MainActivity extends AppCompatActivity {
-    MaterialFancyButton btn_percakapan;
+    MaterialFancyButton btn_percakapan, btn_kamus, btn_bookmark, btn_pengaturan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +35,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_kamus = (MaterialFancyButton) findViewById(R.id.btn_kamus);
+        btn_kamus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, KamusActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

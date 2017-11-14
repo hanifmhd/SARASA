@@ -116,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
-            android:text="Prototype Version"
+            android:text="Alpha Version"
             android:textSize="10sp"
             android:textColor="@android:color/black"/>
     </LinearLayout>
