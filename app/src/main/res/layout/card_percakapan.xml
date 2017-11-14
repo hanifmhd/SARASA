@@ -47,6 +47,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layout_salam"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -86,6 +87,7 @@
             card_view:srcCompat="@drawable/ic_keyboard_arrow_right_black_48dp" />
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/layout_angka"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -125,6 +127,7 @@
             card_view:srcCompat="@drawable/ic_keyboard_arrow_right_black_48dp" />
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/layout_tempattinggal"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -163,6 +166,7 @@
             card_view:srcCompat="@drawable/ic_keyboard_arrow_right_black_48dp" />
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/layout_wds"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -201,6 +205,7 @@
             card_view:srcCompat="@drawable/ic_keyboard_arrow_right_black_48dp" />
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/layout_tanggal"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 public class PercakapanActivity extends AppCompatActivity {
-    LinearLayout perkenalan;
+    LinearLayout perkenalan,salam,angka,tempattinggal,wds,tanggal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,12 @@ public class PercakapanActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         perkenalan = (LinearLayout) findViewById(R.id.layout_perkenalan);
+        salam = (LinearLayout) findViewById(R.id.layout_salam);
+        angka = (LinearLayout) findViewById(R.id.layout_angka);
+        tempattinggal = (LinearLayout) findViewById(R.id.layout_tempattinggal);
+        wds = (LinearLayout) findViewById(R.id.layout_wds);
+        tanggal = (LinearLayout) findViewById(R.id.layout_tanggal);
+
         perkenalan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,6 +37,42 @@ public class PercakapanActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        salam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PercakapanActivity.this, SalamActivity.class);
+                startActivity(intent);
+            }
+        });
+        angka.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PercakapanActivity.this, AngkaActivity.class);
+                startActivity(intent);
+            }
+        });
+        tempattinggal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PercakapanActivity.this, TempattinggalActivity.class);
+                startActivity(intent);
+            }
+        });
+        wds.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PercakapanActivity.this, WdsActivity.class);
+                startActivity(intent);
+            }
+        });
+        tanggal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PercakapanActivity.this, TanggalActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
