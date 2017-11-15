@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Preparing Sarasa..."
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"/>

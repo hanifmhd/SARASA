@@ -4,6 +4,7 @@ package com.mis.sarasa;
  * Created by Hanifmhd on 11/14/2017.
  */
 
+import android.content.res.Resources;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +17,13 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.mis.sarasa.entity.Dictionary;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class KamusActivity extends AppCompatActivity {
 
@@ -71,10 +79,13 @@ public class KamusActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        int countJawa = 0;
+        int countIndo = 0;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Snackbar.make(mViewPager, "Sarasa Alpha Version by Mobile Innovation Studio", Snackbar.LENGTH_LONG).show();
+            Snackbar.make(mViewPager, "Terdapat "+jawa(countJawa)+ " kata bahasa jawa-indonesia\n"+
+                    "Terdapat "+indo(countIndo)+ " kata bahasa indonesia-jawa", Snackbar.LENGTH_LONG).show();
             return true;
         }
 
@@ -82,6 +93,48 @@ public class KamusActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
+    public int jawa(int linecount){
+        StringBuilder text = new StringBuilder();
+        BufferedReader bufferedReader;
+        try {
+            Resources res = getResources();
+            InputStream inputStream = res.openRawResource(R.raw.jawa_indonesia);
+
+            bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            String line;
+            while ((line=bufferedReader.readLine())!=null){
+                text.append(line);
+                text.append('\n');
+                linecount++;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return linecount;
+    }
+
+    public int indo(int linecount){
+        StringBuilder text = new StringBuilder();
+        BufferedReader bufferedReader;
+        try {
+            Resources res = getResources();
+            InputStream inputStream = res.openRawResource(R.raw.indonesia_jawa);
+
+            bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            String line;
+            while ((line=bufferedReader.readLine())!=null){
+                text.append(line);
+                text.append('\n');
+                linecount++;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return linecount;
+    }
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to

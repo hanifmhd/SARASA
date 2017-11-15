@@ -86,13 +86,13 @@ public class SplashActivity extends AppCompatActivity {
         BufferedReader bufferedReader;
         try {
             Resources res = getResources();
-            InputStream inputStream = res.openRawResource(R.raw.english_indonesia);
+            InputStream inputStream = res.openRawResource(R.raw.jawa_indonesia);
 
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             int count = 0;
             do {
                 line = bufferedReader.readLine();
-                String[] splitstr = line.split("\t", 3);
+                String[] splitstr = line.split("=", 2);
                 Dictionary Dictionary;
                 Dictionary = new Dictionary(splitstr[0], splitstr[1]);
                 Dictionarys.add(Dictionary);
@@ -111,13 +111,13 @@ public class SplashActivity extends AppCompatActivity {
         BufferedReader bufferedReader;
         try {
             Resources res = getResources();
-            InputStream inputStream = res.openRawResource(R.raw.indonesia_english);
+            InputStream inputStream = res.openRawResource(R.raw.indonesia_jawa);
 
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             int count = 0;
             do {
                 line = bufferedReader.readLine();
-                String[] splitstr = line.split("\t", 2);
+                String[] splitstr = line.split("=", 2);
                 Dictionary Dictionary;
                 Dictionary = new Dictionary(splitstr[0], splitstr[1]);
                 Dictionarys.add(Dictionary);
