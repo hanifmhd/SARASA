@@ -18,6 +18,55 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="2"
+            android:src="@drawable/budi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piye Kabare?"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apa kabar?"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IvSoundBudi1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
             android:src="@drawable/ani" />
 
         <LinearLayout
@@ -30,23 +79,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Entuk kenalan karo awakmu"
+                android:text="Apik-apik wae. Kowe kok nggawa motor? Arep budal nang ndi?"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Boleh berkenalan denganmu tidak?"
+                android:text="Baik-baik saja. Kamu kok bawa motor? Mau pergi ke mana?"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundAni1"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -71,23 +128,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Monggo / Yo entuk wae"
+                android:text="Aku arep budal nang mall, arep tuku HP anyar."
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Silahkan / Ya boleh saja"
+                android:text="Aku mau pergi ke mall, mau beli HP baru."
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundBudi2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -112,23 +177,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jenengku Ani, Jenengmu sapa?"
+                android:text="Oh ngono. Ati-ati"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Namaku Ani, Namamu siapa?"
+                android:text="Oh begitu. Hati-hati"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundAni2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -153,23 +226,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jenengku Budi. Umurmu pira?"
+                android:text="Suwun. Dhisikan yo!"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Namaku Budi. Umumurmu berapa?"
+                android:text="Terima kasih. Duluan ya"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundBudi3"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -194,21 +275,29 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Umurku pitulas tahun. Pira umurmu?"
+                android:text="Monggo-monggo"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Umurku 17 tahun. Berapa umurmu?"
+                android:text="Silahkan-silahkan"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundAni3"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 </LinearLayout>

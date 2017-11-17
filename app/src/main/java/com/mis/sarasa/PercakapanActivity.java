@@ -28,7 +28,6 @@ public class PercakapanActivity extends AppCompatActivity {
         angka = (LinearLayout) findViewById(R.id.layout_angka);
         tempattinggal = (LinearLayout) findViewById(R.id.layout_tempattinggal);
         wds = (LinearLayout) findViewById(R.id.layout_wds);
-        tanggal = (LinearLayout) findViewById(R.id.layout_tanggal);
 
         perkenalan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,14 +64,5 @@ public class PercakapanActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        tanggal.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PercakapanActivity.this, TanggalActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
     }
 }

@@ -18,6 +18,55 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="2"
+            android:src="@drawable/budi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nuwun sewu, kulo badhe tumbas Bu."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Permisi, saya mau beli Bu.."
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IvSoundBudi1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
             android:src="@drawable/ani" />
 
         <LinearLayout
@@ -30,23 +79,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Entuk kenalan karo awakmu"
+                android:text="Oh, nggih, Badhe tumbas nopo?"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Boleh berkenalan denganmu tidak?"
+                android:text="Oh, ya. Mau beli apa?"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundAni1"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -71,23 +128,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Monggo / Yo entuk wae"
+                android:text="Kertas karton tigang lembar, kaliyan pulpen cemeng kalih. Kertas mika nipun menopo wonten nggih Bu?"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Silahkan / Ya boleh saja"
+                android:text="Kertas karton tiga lembar, sama pulpen hitam dua. Kertas mika apa ada ya Bu?"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundBudi2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -112,23 +177,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jenengku Ani, Jenengmu sapa?"
+                android:text="Nggih wonten. Betah pinten mas?"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Namaku Ani, Namamu siapa?"
+                android:text="Iya ada. Butuh berapa mas?"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundAni2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -153,23 +226,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jenengku Budi. Umurmu pira?"
+                android:text="Enem lembar mawon bu"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Namaku Budi. Umumurmu berapa?"
+                android:text="Enam lembar saja bu"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/IvSoundBudi3"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -194,21 +275,277 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Umurku pitulas tahun. Pira umurmu?"
+                android:text="Nopo malih?"
                 android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Umurku 17 tahun. Berapa umurmu?"
+                android:text="Apa lagi?"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
 
+
         <ImageView
+            android:id="@+id/IvSoundAni3"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/budi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sampun Bu. Sedoyo nipon pinten nggih?"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sudah Bu. Semuanya berapa ya?"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IvSoundBudi4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/ani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sedoyone Pitu ngewu kalih atus"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semuanya Tujuh ribu dua ratus"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/IvSoundAni4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/budi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menika Ibu artanipun"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silahkan"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IvSoundBudi5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/ani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Niki barangipun"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ini barangnya"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/IvSoundAni5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/budi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matur nuwun"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terima kasih"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IvSoundBudi6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_list"></LinearLayout>
 </LinearLayout>

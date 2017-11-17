@@ -48,7 +48,6 @@
                 fancy:mfb_borderWidth="1dp"
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
-                fancy:mfb_iconFont="fontawesome.ttf"
                 fancy:mfb_radius="30dp"
                 fancy:mfb_text="Percakapan"
                 fancy:mfb_textColor="@android:color/black" />
@@ -65,7 +64,6 @@
                 fancy:mfb_borderWidth="1dp"
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
-                fancy:mfb_iconFont="fontawesome.ttf"
                 fancy:mfb_radius="30dp"
                 fancy:mfb_text="Kamus"
                 fancy:mfb_textColor="@android:color/black" />
@@ -82,7 +80,6 @@
                 fancy:mfb_borderWidth="1dp"
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
-                fancy:mfb_iconFont="fontawesome.ttf"
                 fancy:mfb_radius="30dp"
                 fancy:mfb_text="Bookmark"
                 fancy:mfb_textColor="@android:color/black" />
@@ -99,7 +96,6 @@
                 fancy:mfb_borderWidth="1dp"
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
-                fancy:mfb_iconFont="fontawesome.ttf"
                 fancy:mfb_radius="30dp"
                 fancy:mfb_text="Tentang"
                 fancy:mfb_textColor="@android:color/black" />
