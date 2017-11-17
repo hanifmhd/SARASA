@@ -18,4 +18,24 @@
     <string name="okay">Close</string>
     <string name="copyright">Grafian Software Crafter 2013&#8211;2014\nBandung, Indonesia</string>
     <string name="website">http://grafian.com</string>
+
+    <string name="add_favr">Added to Favorites</string>
+    <string name="remove_favr">Removed from Favorites</string>
+    <string name="no_favorites_items">No Favorites</string>
+    <string name="no_favorites_msg">Long press on item to add to favorites.</string>
+    <string name="favorites_remove_msg">Long press on item to remove from favorites.</string>
+
+    <string name="about_penjelasan">Aplikasi SARASA merupakan sebuah aplikasi yang digagas oleh 3 Mahasiswa informatika ITS.\n\nAplikasi ini dapat membantu kamu belajar bahasa daerah maupun melestarikan bahasa daerah.\n\nTerdapat beberapa fitur utama dalam aplikasi sarasa:\n1. Percakapan sesuai dengan kondisi sehari hari yang dilengkapi audio\n2. Kamus untuk mencari kata.\n\nDengan adanya aplikasi ini, diharapkan generasi muda Indonesia dapat menjaga aset terbesar dari bangsa Indonesia, yaitu bahasa daerah yang merupakan identitas dari suatu bangsa.</string>
+    <string name="about_develop">Developed by : </string>
+    <string name="about_design">Designed and animated by: </string>
+    <string name="about_support">Supported by: </string>
+    <string name="about_hanif">Teknik Informatika 2014\nas Programmer</string>
+    <string name="about_uli">Teknik Informatika 2014\nas Project Manager &amp; UI/UX Designer</string>
+    <string name="about_rafi">Teknik Informatika 2015\nas Programmer</string>
+    <string name="about_mis">Mobile Innovation Studio \nTeknik Informatika ITS</string>
+    <string name="link_mis">mobile.if.its.ac.id</string>
+    <string name="about_flaticon">Flaticon"</string>
+    <string name="link_flaticon">flaticon.com</string>
+    <string name="about_android_arsenal">Android Arsenal"</string>
+    <string name="link_android_arsenal">android-arsenal.com</string>
 </resources>

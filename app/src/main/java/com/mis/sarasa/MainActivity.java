@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.rilixtech.materialfancybutton.MaterialFancyButton;
 
 public class MainActivity extends AppCompatActivity {
-    MaterialFancyButton btn_percakapan, btn_kamus, btn_bookmark, btn_pengaturan;
+    MaterialFancyButton btn_percakapan, btn_kamus, btn_bookmark, btn_tentang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, KamusActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_tentang = (MaterialFancyButton) findViewById(R.id.btn_tentang);
+        btn_tentang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, TentangActivity.class);
                 startActivity(intent);
             }
         });

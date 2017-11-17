@@ -6,4 +6,7 @@
     <color name="darkBrown">#1d0b00</color>
     <color name="black50">#99000000</color>
     <color name="bg_list">#e5e5e5</color>
+    <color name="transparent">#00000000</color>
+    <color name="product_list_item_bg">#ffffff</color>
+    <color name="view_divider_color">#BABABA</color>
 </resources>

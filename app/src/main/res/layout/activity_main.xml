@@ -87,7 +87,7 @@
                 fancy:mfb_text="Bookmark"
                 fancy:mfb_textColor="@android:color/black" />
             <com.rilixtech.materialfancybutton.MaterialFancyButton
-                android:id="@+id/btn_pengaturan"
+                android:id="@+id/btn_tentang"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                 fancy:mfb_focusColor="@android:color/white"
                 fancy:mfb_iconFont="fontawesome.ttf"
                 fancy:mfb_radius="30dp"
-                fancy:mfb_text="Pengaturan"
+                fancy:mfb_text="Tentang"
                 fancy:mfb_textColor="@android:color/black" />
 
         </LinearLayout>
