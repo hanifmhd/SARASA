@@ -29,12 +29,14 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Entuk kenalan karo awakmu ora?"
                 android:textColor="@android:color/black" />
 
             <TextView
+                android:id="@+id/txt1_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Boleh berkenalan denganmu tidak?"
@@ -48,6 +50,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <ImageView
+            android:id="@+id/IvBookmark1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/star_on"
+            />
 
     </LinearLayout>
 
@@ -98,6 +107,14 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <ImageView
+            android:id="@+id/IvBookmark2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/star_off"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -147,6 +164,14 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <ImageView
+            android:id="@+id/IvBookmark3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/star_on"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -196,6 +221,14 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <ImageView
+            android:id="@+id/IvBookmark4"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/star_off"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -245,6 +278,14 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <ImageView
+            android:id="@+id/IvBookmark5"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/star_off"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -294,6 +335,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <ImageView
+            android:id="@+id/IvBookmark6"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/star_off"
+            />
     </LinearLayout>
 
     <LinearLayout
