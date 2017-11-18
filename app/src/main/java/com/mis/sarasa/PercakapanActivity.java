@@ -1,9 +1,5 @@
 package com.mis.sarasa;
 
-/**
- * Created by Hanifmhd on 10/25/2017.
- */
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

@@ -1,9 +1,5 @@
 package com.mis.sarasa;
 
-/**
- * Created by Hanifmhd on 11/17/2017.
- */
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.util.Linkify;

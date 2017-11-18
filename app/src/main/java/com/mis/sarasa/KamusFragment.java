@@ -1,8 +1,5 @@
 package com.mis.sarasa;
 
-/**
- * Created by Hanifmhd on 11/14/2017.
- */
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -24,10 +21,6 @@ import com.mis.sarasa.entity.Dictionary;
 
 import java.util.ArrayList;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class KamusFragment extends Fragment {
 
     private KamusHelper kamusHelper;

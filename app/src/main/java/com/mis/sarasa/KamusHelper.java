@@ -10,10 +10,6 @@ import com.mis.sarasa.entity.Dictionary;
 
 import java.util.ArrayList;
 
-/**
- * Created by a on 18/10/2017.
- */
-
 public class KamusHelper {
     private DatabaseHelper mHelper;
     private SQLiteDatabase db;

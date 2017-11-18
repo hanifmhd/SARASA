@@ -3,9 +3,6 @@ package com.mis.sarasa;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by Hanifmhd on 14/11/2017.
- */
 
 public class AppPreference {
     public static final String PREF_NAME = "mykamus";

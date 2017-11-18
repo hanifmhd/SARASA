@@ -10,10 +10,6 @@ import android.widget.Button;
 
 import com.rilixtech.materialfancybutton.MaterialFancyButton;
 
-/**
- * Created by Hanifmhd on 11/18/2017.
- */
-
 public class DaftarBahasaActivity extends AppCompatActivity{
     private MaterialFancyButton btn_BahasaJawa,btn_Bahasa1,btn_Bahasa2,btn_Bahasa3,btn_Bahasa4,btn_Bahasa5,btn_Bahasa6,btn_Bahasa7,btn_Bahasa8,btn_Bahasa9;
 
@@ -47,7 +43,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -77,7 +73,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -92,7 +88,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -107,7 +103,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -122,7 +118,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -137,7 +133,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -152,7 +148,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
@@ -167,7 +163,7 @@ public class DaftarBahasaActivity extends AppCompatActivity{
                 AlertDialog alertDialog = new AlertDialog.Builder(DaftarBahasaActivity.this).create();
                 alertDialog.setTitle("Terkunci!");
                 alertDialog.setMessage("Fitur masih dalam tahap pengembangan");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Kembali",
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Kembali",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();

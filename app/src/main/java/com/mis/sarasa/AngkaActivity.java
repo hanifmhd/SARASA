@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-public class AngkaActivity extends AppCompatActivity implements View.OnClickListener{
+public class AngkaActivity extends AppCompatActivity implements View.OnClickListener {
 
     ImageView IvSoundBudi1, IvSoundBudi2, IvSoundBudi3, IvSoundBudi4, IvSoundBudi5, IvSoundBudi6, IvSoundAni1, IvSoundAni2, IvSoundAni3, IvSoundAni4, IvSoundAni5;
     private MediaPlayer mp;
@@ -48,75 +48,83 @@ public class AngkaActivity extends AppCompatActivity implements View.OnClickList
         IvSoundAni4.setOnClickListener(this);
         IvSoundAni5.setOnClickListener(this);
     }
+
     @Override
     public void onClick(View view) {
 //        final MediaPlayer mpp1 = MediaPlayer.create(PerkenalanActivity.this,R.raw.perkenalan1);
 //        final MediaPlayer mpp2 = MediaPlayer.create(PerkenalanActivity.this,R.raw.perkenalan2);
 
-        switch(view.getId()) {
+        switch (view.getId()) {
             case R.id.IvSoundBudi1:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkabudi1);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkabudi1);
                 mp.start();
                 break;
             case R.id.IvSoundBudi2:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkabudi2);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkabudi2);
                 mp.start();
                 break;
             case R.id.IvSoundBudi3:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkabudi3);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkabudi3);
                 mp.start();
                 break;
             case R.id.IvSoundBudi4:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkabudi4);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkabudi4);
                 mp.start();
                 break;
             case R.id.IvSoundBudi5:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkabudi5);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkabudi5);
                 mp.start();
                 break;
             case R.id.IvSoundBudi6:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkabudi6);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkabudi6);
                 mp.start();
                 break;
             case R.id.IvSoundAni1:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkani1);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkani1);
                 mp.start();
                 break;
             case R.id.IvSoundAni2:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkani2);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkani2);
                 mp.start();
                 break;
             case R.id.IvSoundAni3:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkani3);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkani3);
                 mp.start();
                 break;
             case R.id.IvSoundAni4:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkani4);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkani4);
                 mp.start();
                 break;
             case R.id.IvSoundAni5:
                 stopPlaying();
-                mp = MediaPlayer.create(AngkaActivity.this,R.raw.angkani5);
+                mp = MediaPlayer.create(AngkaActivity.this, R.raw.angkani5);
                 mp.start();
                 break;
         }
     }
-    private void stopPlaying(){
-        if(mp != null){
+
+    private void stopPlaying() {
+        if (mp != null) {
             mp.stop();
             mp.release();
             mp = null;
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        stopPlaying();
     }
 
 }

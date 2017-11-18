@@ -4,10 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by Hanifmhd_ on 14/11/2017.
- */
-
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "db_kamus";
     public static final String TABLE_NAME_ENG_IND = "dictionary_eng";

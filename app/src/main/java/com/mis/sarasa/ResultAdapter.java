@@ -11,10 +11,6 @@ import com.mis.sarasa.entity.Dictionary;
 
 import java.util.ArrayList;
 
-/**
- * Created by Muhamad Arief on 18/10/2017.
- */
-
 public class ResultAdapter extends RecyclerView.Adapter<ResultAdapter.HolderItem> {
 
     private Context context;
