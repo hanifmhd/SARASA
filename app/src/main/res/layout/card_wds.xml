@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -47,13 +48,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark1"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_on"
-            />
+            android:src="@drawable/star_on" />
     </LinearLayout>
 
     <LinearLayout
@@ -80,6 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -103,13 +105,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark2"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
 
     </LinearLayout>
 
@@ -137,6 +139,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -160,13 +163,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark3"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
 
     </LinearLayout>
 
@@ -194,6 +197,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -217,13 +221,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark4"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -250,6 +254,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -273,13 +278,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark5"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -306,6 +311,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -329,13 +335,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark6"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -362,6 +368,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -385,13 +392,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark7"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_on"
-            />
+            android:src="@drawable/star_on" />
     </LinearLayout>
 
     <LinearLayout
@@ -418,6 +425,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -441,13 +449,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark8"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -474,6 +482,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -497,13 +506,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark9"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -530,6 +539,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -553,13 +563,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark10"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -586,6 +596,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -609,13 +620,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark11"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout
@@ -642,6 +653,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -665,13 +677,13 @@
             android:layout_height="30dp"
             android:layout_weight="2"
             card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
         <ImageView
             android:id="@+id/IvBookmark12"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_weight="2"
-            android:src="@drawable/star_off"
-            />
+            android:src="@drawable/star_off" />
     </LinearLayout>
 
     <LinearLayout

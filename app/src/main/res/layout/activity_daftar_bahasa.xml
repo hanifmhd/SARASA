@@ -4,24 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    android:orientation="vertical">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DaftarBahasaActivity">
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:orientation="vertical">
-
+            android:layout_height="wrap_content">
             <com.rilixtech.materialfancybutton.MaterialFancyButton
                 android:id="@+id/btn_BahasaJawa"
-                android:layout_width="wrap_content"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
@@ -34,6 +32,11 @@
                 fancy:mfb_radius="30dp"
                 fancy:mfb_text="Bahasa Jawa"
                 fancy:mfb_textColor="@android:color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <com.rilixtech.materialfancybutton.MaterialFancyButton
                 android:id="@+id/btn_Bahasa1"
@@ -49,8 +52,22 @@
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
                 fancy:mfb_radius="30dp"
-                fancy:mfb_text="Bahasa1"
-                fancy:mfb_textColor="@android:color/black" />
+                fancy:mfb_text="Bahasa Sunda"
+                fancy:mfb_textColor="@android:color/black"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa1"
+                android:layout_alignRight="@id/btn_Bahasa1"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <com.rilixtech.materialfancybutton.MaterialFancyButton
                 android:id="@+id/btn_Bahasa2"
@@ -66,8 +83,21 @@
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
                 fancy:mfb_radius="30dp"
-                fancy:mfb_text="Bahasa2"
+                fancy:mfb_text="Bahasa Bali"
                 fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa2"
+                android:layout_alignRight="@id/btn_Bahasa2"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <com.rilixtech.materialfancybutton.MaterialFancyButton
                 android:id="@+id/btn_Bahasa3"
@@ -83,10 +113,191 @@
                 fancy:mfb_defaultColor="@android:color/white"
                 fancy:mfb_focusColor="@android:color/white"
                 fancy:mfb_radius="30dp"
-                fancy:mfb_text="Bahasa3"
+                fancy:mfb_text="Bahasa Minang"
                 fancy:mfb_textColor="@android:color/black" />
 
-        </LinearLayout>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa3"
+                android:layout_alignRight="@id/btn_Bahasa3"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_Bahasa4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:mfb_borderColor="#FFFFFF"
+                fancy:mfb_borderWidth="1dp"
+                fancy:mfb_defaultColor="@android:color/white"
+                fancy:mfb_focusColor="@android:color/white"
+                fancy:mfb_radius="30dp"
+                fancy:mfb_text="Bahasa Aceh"
+                fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa4"
+                android:layout_alignRight="@id/btn_Bahasa4"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_Bahasa5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:mfb_borderColor="#FFFFFF"
+                fancy:mfb_borderWidth="1dp"
+                fancy:mfb_defaultColor="@android:color/white"
+                fancy:mfb_focusColor="@android:color/white"
+                fancy:mfb_radius="30dp"
+                fancy:mfb_text="Bahasa Batak"
+                fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa5"
+                android:layout_alignRight="@id/btn_Bahasa5"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_Bahasa6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:mfb_borderColor="#FFFFFF"
+                fancy:mfb_borderWidth="1dp"
+                fancy:mfb_defaultColor="@android:color/white"
+                fancy:mfb_focusColor="@android:color/white"
+                fancy:mfb_radius="30dp"
+                fancy:mfb_text="Bahasa Banjar"
+                fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa6"
+                android:layout_alignRight="@id/btn_Bahasa6"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_Bahasa7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:mfb_borderColor="#FFFFFF"
+                fancy:mfb_borderWidth="1dp"
+                fancy:mfb_defaultColor="@android:color/white"
+                fancy:mfb_focusColor="@android:color/white"
+                fancy:mfb_radius="30dp"
+                fancy:mfb_text="Bahasa Bugis"
+                fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa7"
+                android:layout_alignRight="@id/btn_Bahasa7"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_Bahasa8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:mfb_borderColor="#FFFFFF"
+                fancy:mfb_borderWidth="1dp"
+                fancy:mfb_defaultColor="@android:color/white"
+                fancy:mfb_focusColor="@android:color/white"
+                fancy:mfb_radius="30dp"
+                fancy:mfb_text="Bahasa Madura"
+                fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa8"
+                android:layout_alignRight="@id/btn_Bahasa8"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_Bahasa9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:mfb_borderColor="#FFFFFF"
+                fancy:mfb_borderWidth="1dp"
+                fancy:mfb_defaultColor="@android:color/white"
+                fancy:mfb_focusColor="@android:color/white"
+                fancy:mfb_radius="30dp"
+                fancy:mfb_text="Bahasa Betawi"
+                fancy:mfb_textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/btn_Bahasa9"
+                android:layout_alignRight="@id/btn_Bahasa9"
+                android:layout_margin="4dp"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
 
     </LinearLayout>
 </ScrollView>

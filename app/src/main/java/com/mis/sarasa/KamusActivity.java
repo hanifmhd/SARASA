@@ -97,7 +97,7 @@ public class KamusActivity extends AppCompatActivity {
 //            Intent intent = new Intent(Intent.ACTION_VIEW);
 //            intent.setData(Uri.parse("mailto:mobilitylab@gmail.com"));
           intent.setType("message/rfc822");
-//            intent.setType("plain/text");
+//            intent.setType("text/email");
             intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"mobilitylab@gmail.com"});
             intent.putExtra(Intent.EXTRA_SUBJECT, "Saran dan Kritik untuk Sarasa");
             startActivity(Intent.createChooser(intent, "Pilih Aplikasi pengiriman E-Mail"));

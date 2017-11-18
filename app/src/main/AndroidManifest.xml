@@ -78,15 +78,6 @@
                 android:value="com.mis.sarasa.MainActivity" />
         </activity>
         <activity
-            android:name=".TanggalActivity"
-            android:label="Tanggal"
-            android:parentActivityName=".PercakapanActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mis.sarasa.MainActivity" />
-        </activity>
-        <activity
             android:name=".KeteranganActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".DaftarBahasaActivity"
