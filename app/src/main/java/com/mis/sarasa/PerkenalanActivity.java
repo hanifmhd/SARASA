@@ -4,6 +4,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -12,6 +13,7 @@ public class PerkenalanActivity extends AppCompatActivity implements View.OnClic
 
     ImageView IvSoundBudi1, IvSoundBudi2, IvSoundBudi3, IvSoundAni1, IvSoundAni2, IvSoundAni3;
     private MediaPlayer mp;
+    Toolbar toolbar;
 
 
     @Override
@@ -92,5 +94,14 @@ public class PerkenalanActivity extends AppCompatActivity implements View.OnClic
     public void onBackPressed() {
         super.onBackPressed();
         stopPlaying();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home){
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
