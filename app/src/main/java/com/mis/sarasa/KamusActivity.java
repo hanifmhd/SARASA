@@ -6,6 +6,7 @@ package com.mis.sarasa;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -85,14 +86,21 @@ public class KamusActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Snackbar.make(mViewPager, "Terdapat "+jawa(countJawa)+ " kata bahasa jawa-indonesia\n"+
-                    "Terdapat "+indo(countIndo)+ " kata bahasa indonesia-jawa", Snackbar.LENGTH_LONG).show();
+            Snackbar.make(mViewPager, "Terdapat " + jawa(countJawa) + " kata bahasa jawa-indonesia\n" +
+                    "Terdapat " + indo(countIndo) + " kata bahasa indonesia-jawa", Snackbar.LENGTH_LONG).show();
             return true;
-        } else if (id == R.id.action_keterangan){
+        } else if (id == R.id.action_keterangan) {
             Intent intent = new Intent(KamusActivity.this, KeteranganActivity.class);
             startActivity(intent);
-        } else if (id == R.id.action_saran){
-            //Pindah ngirim email untuk masukkans saran
+        } else if (id == R.id.action_saran) {
+            Intent intent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+//            Intent intent = new Intent(Intent.ACTION_VIEW);
+//            intent.setData(Uri.parse("mailto:mobilitylab@gmail.com"));
+          intent.setType("message/rfc822");
+//            intent.setType("plain/text");
+            intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"mobilitylab@gmail.com"});
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Saran dan Kritik untuk Sarasa");
+            startActivity(Intent.createChooser(intent, "Pilih Aplikasi pengiriman E-Mail"));
         }
 
 
@@ -100,7 +108,7 @@ public class KamusActivity extends AppCompatActivity {
     }
 
 
-    public int jawa(int linecount){
+    public int jawa(int linecount) {
         StringBuilder text = new StringBuilder();
         BufferedReader bufferedReader;
         try {
@@ -109,7 +117,7 @@ public class KamusActivity extends AppCompatActivity {
 
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String line;
-            while ((line=bufferedReader.readLine())!=null){
+            while ((line = bufferedReader.readLine()) != null) {
                 text.append(line);
                 text.append('\n');
                 linecount++;
@@ -121,7 +129,7 @@ public class KamusActivity extends AppCompatActivity {
         return linecount;
     }
 
-    public int indo(int linecount){
+    public int indo(int linecount) {
         StringBuilder text = new StringBuilder();
         BufferedReader bufferedReader;
         try {
@@ -130,7 +138,7 @@ public class KamusActivity extends AppCompatActivity {
 
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String line;
-            while ((line=bufferedReader.readLine())!=null){
+            while ((line = bufferedReader.readLine()) != null) {
                 text.append(line);
                 text.append('\n');
                 linecount++;
