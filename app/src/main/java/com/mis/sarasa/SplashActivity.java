@@ -32,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
 
         txt_prepare = (TextView) findViewById(R.id.txt_prepare);
         if (!appPreference.isFirstRun()){
-            txt_prepare.setText("Preparing Sarasa....");
+            txt_prepare.setText("Menyiapkan Sarasa....");
         }
 
         new LoadEndInd().execute();

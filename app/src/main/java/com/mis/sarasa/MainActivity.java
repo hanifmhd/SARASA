@@ -40,7 +40,16 @@ public class MainActivity extends AppCompatActivity {
         btn_kamus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, KamusActivity.class);
+                Intent intent = new Intent(MainActivity.this, DaftarBahasaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_bookmark = (MaterialFancyButton) findViewById(R.id.btn_bookmark);
+        btn_bookmark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, BookmarkActivity.class);
                 startActivity(intent);
             }
         });

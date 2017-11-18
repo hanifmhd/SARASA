@@ -4,6 +4,7 @@ package com.mis.sarasa;
  * Created by Hanifmhd on 11/14/2017.
  */
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.Snackbar;
@@ -87,6 +88,11 @@ public class KamusActivity extends AppCompatActivity {
             Snackbar.make(mViewPager, "Terdapat "+jawa(countJawa)+ " kata bahasa jawa-indonesia\n"+
                     "Terdapat "+indo(countIndo)+ " kata bahasa indonesia-jawa", Snackbar.LENGTH_LONG).show();
             return true;
+        } else if (id == R.id.action_keterangan){
+            Intent intent = new Intent(KamusActivity.this, KeteranganActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_saran){
+            //Pindah ngirim email untuk masukkans saran
         }
 
 

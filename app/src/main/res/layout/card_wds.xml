@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Budi, besok kamu ada acara apa?"
+                android:text="Ani, besok kamu ada acara apa?"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic" />
         </LinearLayout>
