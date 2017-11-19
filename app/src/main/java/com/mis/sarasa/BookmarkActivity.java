@@ -1,5 +1,6 @@
 package com.mis.sarasa;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 /**
@@ -122,6 +123,12 @@ public class BookmarkActivity extends AppCompatActivity implements View.OnClickL
     public void onBackPressed() {
         super.onBackPressed();
         stopPlaying();
+        finish();
+        Intent intent = new Intent(BookmarkActivity.this,MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
+
     }
 
     @Override

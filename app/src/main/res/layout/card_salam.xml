@@ -42,12 +42,22 @@
                 android:textStyle="italic" />
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/IvSoundBudi1"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_weight="2"
-            card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/IvSoundBudi1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                card_view:srcCompat="@drawable/ic_volume_up_black_48dp" />
+            <ImageView
+                android:id="@+id/IvSoundBudi1on"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                card_view:srcCompat="@drawable/volum"/>
+        </RelativeLayout>
 
         <ImageView
             android:id="@+id/IvBookmark1"

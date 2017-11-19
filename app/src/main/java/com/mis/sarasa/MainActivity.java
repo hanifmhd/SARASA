@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btn_percakapan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, PercakapanActivity.class);
+                Intent intent = new Intent(MainActivity.this, DaftarBahasaActivityPercakapan.class);
                 startActivity(intent);
             }
         });
@@ -64,5 +64,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        System.exit(0);
+        android.os.Process.killProcess(android.os.Process.myPid());
+    }
+
 }

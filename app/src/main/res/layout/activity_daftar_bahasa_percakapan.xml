@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/gradient"
-    tools:context="com.mis.sarasa.DaftarBahasaActivity">
+    tools:context=".DaftarBahasaActivityPercakapan">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -33,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Daftar Kamus"
+                    android:text="Daftar Percakapan"
                     android:textColor="@android:color/white"
                     android:textSize="20sp"
 

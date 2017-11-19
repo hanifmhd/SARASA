@@ -18,10 +18,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".KamusActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PercakapanActivity"
             android:label="Percakapan"
@@ -31,7 +31,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mis.sarasa.MainActivity" />
         </activity>
-
         <activity
             android:name=".PerkenalanActivity"
             android:label="Perkenalan"
@@ -79,27 +78,33 @@
         </activity>
         <activity
             android:name=".KeteranganActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".DaftarBahasaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DaftarBahasaActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".BookmarkActivity"
+        <activity
+            android:name=".BookmarkActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".TentangActivity"
+        <activity
+            android:name=".TentangActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".DaftarBahasaActivityPercakapan">
+
         </activity>
     </application>
 
